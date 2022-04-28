@@ -110,5 +110,9 @@ app.get('/', (req, res) => {
     res.send("Running Genius Server")
 })
 
+app.get('/hero', (req, res) => {
+    res.send('Hero meets hero ku')
+})
+
 // App List
 app.listen(port, console.log(`Server is listening on PORT: ${port}`))
